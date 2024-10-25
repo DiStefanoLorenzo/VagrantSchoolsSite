@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
     config.ssh.insert_key = false # Permette di accedere via SSH senza errori
     VMNAMEWEB = "web.m340"
     VMNAMEDB = "db.m340"
-    VMRAM = "1024"
+    VMRAM = "2048"
     BASE_INT_NETWORK = "10.10.20"
     BASE_HOST_ONLY_NETWORK = "192.168.56"
     
